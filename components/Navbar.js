@@ -9,9 +9,7 @@ import Link from 'next/link';
 import { Fragment, useState, useContext } from 'react';
 
 import Cookies from 'js-cookie';
-import Head from 'next/head';
-import NextLink from 'next/link';
-import { Store } from '../utils/Store';
+import { Store } from 'utils/Store';
 import { useRouter } from 'next/router';
 
 const navigation = {
@@ -25,7 +23,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const { state, dispatch } = useContext(Store);
-  const { darkMode, cart, userInfo } = state;
+  const { cart, userInfo } = state;
   const router = useRouter();
 
   return (
@@ -126,8 +124,8 @@ export default function Navbar() {
                     <span className="sr-only">Workflow</span>
                     <img
                       className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
-                      alt=""
+                      src="/workflow.svg"
+                      alt="logo"
                     />
                   </a>
                 </Link>
