@@ -1,22 +1,19 @@
 const incentives = [
   {
     name: 'Free shipping',
-    imageSrc:
-      'https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg',
+    imageSrc: '/icons/icon-shipping-simple.svg',
     description:
       "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
   },
   {
     name: '10-year warranty',
-    imageSrc:
-      'https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg',
+    imageSrc: '/icons/icon-warranty-simple.svg',
     description:
       "If it breaks in the first 10 years we'll replace it. After that you're on your own though.",
   },
   {
     name: 'Exchanges',
-    imageSrc:
-      'https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg',
+    imageSrc: '/icons/icon-exchange-simple.svg',
     description:
       "If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.",
   },
@@ -42,8 +39,7 @@ export default function Incentive() {
             </div>
             <div className="aspect-w-3 aspect-h-2 bg-gray-100 rounded-lg overflow-hidden">
               <img
-                src="https://tailwindui.com/img/ecommerce-images/incentives-07-hero.jpg"
-                alt=""
+                src="/images/incentives-07-hero.jpg"
                 className="object-center object-cover"
               />
             </div>

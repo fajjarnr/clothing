@@ -6,7 +6,13 @@ import {
   XIcon,
 } from '@heroicons/react/outline';
 import Link from 'next/link';
-import { Fragment, useState } from 'react';
+import { Fragment, useState, useContext } from 'react';
+
+import Cookies from 'js-cookie';
+import Head from 'next/head';
+import NextLink from 'next/link';
+import { Store } from '../utils/Store';
+import { useRouter } from 'next/router';
 
 const navigation = {
   pages: [
@@ -17,6 +23,10 @@ const navigation = {
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+
+  const { state, dispatch } = useContext(Store);
+  const { darkMode, cart, userInfo } = state;
+  const router = useRouter();
 
   return (
     <div className="bg-white">
@@ -163,14 +173,14 @@ export default function Navbar() {
 
                 {/* Cart */}
                 <div className="ml-4 flow-root lg:ml-6">
-                  <Link href="/cart">
+                  <Link href="/cart" passHref>
                     <a className="group -m-2 p-2 flex items-center">
                       <ShoppingBagIcon
                         className="flex-shrink-0 h-6 w-6 text-gray-400 group-hover:text-gray-500"
                         aria-hidden="true"
                       />
                       <span className="ml-2 text-sm font-medium text-gray-700 group-hover:text-gray-800">
-                        0
+                        {cart.cartItems.length > 0 ? cart.cartItems.length : 0}
                       </span>
                       <span className="sr-only">items in cart, view bag</span>
                     </a>

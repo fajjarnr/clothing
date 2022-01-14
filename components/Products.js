@@ -25,12 +25,12 @@ export default function Products({ products }) {
                 />
               </div>
               <h3 className="mt-4 text-base font-semibold text-gray-900">
-                <a href={slug}>
+                <a href={`/product/${slug}`}>
                   <span className="absolute inset-0" />
                   {name}
                 </a>
               </h3>
-              <p className="mt-1 text-sm text-gray-500">{price}</p>
+              <p className="mt-1 text-sm text-gray-500">$ {price}</p>
             </div>
           ))}
         </div>

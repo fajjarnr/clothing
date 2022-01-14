@@ -27,16 +27,14 @@ export default function CTA() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg"
-                        alt=""
+                        src="/images/home-page-03-category-01.jpg"
                       />
                     </div>
 
                     <div className="mt-6 flex-shrink-0 sm:mt-0">
                       <img
                         className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg"
-                        alt=""
+                        src="/images/home-page-03-category-02.jpg"
                       />
                     </div>
                   </div>
@@ -44,15 +42,14 @@ export default function CTA() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-01.jpg"
-                        alt=""
+                        src="/images/favorite-1.jpg"
                       />
                     </div>
 
                     <div className="mt-6 flex-shrink-0 sm:mt-0">
                       <img
                         className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-favorite-02.jpg"
+                        src="/images/favorite-2.jpg"
                         alt=""
                       />
                     </div>
@@ -61,7 +58,7 @@ export default function CTA() {
                     <div className="flex-shrink-0">
                       <img
                         className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg"
+                        src="/images/home-page-03-category-01.jpg"
                         alt=""
                       />
                     </div>
@@ -69,8 +66,7 @@ export default function CTA() {
                     <div className="mt-6 flex-shrink-0 sm:mt-0">
                       <img
                         className="h-64 w-64 rounded-lg object-cover md:h-72 md:w-72"
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-category-02.jpg"
-                        alt=""
+                        src="/images/home-page-03-category-02.jpg"
                       />
                     </div>
                   </div>

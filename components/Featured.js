@@ -4,7 +4,7 @@ export default function Featured() {
       <div className="relative bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
         <div className="absolute inset-0 overflow-hidden">
           <img
-            src="https://tailwindui.com/img/ecommerce-images/home-page-03-feature-section-full-width.jpg"
+            src="/images/home-page-03-feature-section-full-width.jpg"
             alt=""
             className="w-full h-full object-center object-cover"
           />
