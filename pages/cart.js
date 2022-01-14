@@ -1,12 +1,6 @@
-import {
-  CheckIcon,
-  ClockIcon,
-  QuestionMarkCircleIcon,
-  XIcon,
-} from '@heroicons/react/solid';
-
-import Layout from 'components/Layout';
+import { CheckIcon, ClockIcon, XIcon } from '@heroicons/react/solid';
 import axios from 'axios';
+import Layout from 'components/Layout';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -67,10 +61,12 @@ function CartScreen() {
                   {cartItems.map((product, productIdx) => (
                     <li key={product._id} className="flex py-6 sm:py-10">
                       <div className="flex-shrink-0">
-                        <img
+                        <Image
                           src={product.image}
                           alt={product.name}
                           className="w-24 h-24 rounded-md object-center object-cover sm:w-48 sm:h-48"
+                          width={96}
+                          height={96}
                         />
                       </div>
 
