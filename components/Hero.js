@@ -8,12 +8,11 @@ export default function Hero() {
           </h1>
           <p className="mt-4 text-xl text-gray-500">
             This year, our new summer collection will shelter you from the harsh
-            elements of a world that doesn't care if you live or die.
+            elements of a world that doesnt care if you live or die.
           </p>
         </div>
         <div>
           <div className="mt-10">
-            {/* Decorative image grid */}
             <div
               aria-hidden="true"
               className="pointer-events-none lg:absolute lg:inset-y-0 lg:max-w-7xl lg:mx-auto lg:w-full"
@@ -23,37 +22,13 @@ export default function Hero() {
                   <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                     <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                       <img
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
-                        alt=""
+                        src="/images/product-1.jpg"
                         className="w-full h-full object-center object-cover"
                       />
                     </div>
                     <div className="w-44 h-64 rounded-lg overflow-hidden">
                       <img
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                        alt=""
-                        className="w-full h-full object-center object-cover"
-                      />
-                    </div>
-                  </div>
-                  <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                    <div className="w-44 h-64 rounded-lg overflow-hidden">
-                      <img
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                        alt=""
-                        className="w-full h-full object-center object-cover"
-                      />
-                    </div>
-                    <div className="w-44 h-64 rounded-lg overflow-hidden">
-                      <img
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                        alt=""
-                        className="w-full h-full object-center object-cover"
-                      />
-                    </div>
-                    <div className="w-44 h-64 rounded-lg overflow-hidden">
-                      <img
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
+                        src="/images/product-2.jpg"
                         alt=""
                         className="w-full h-full object-center object-cover"
                       />
@@ -62,14 +37,37 @@ export default function Hero() {
                   <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                     <div className="w-44 h-64 rounded-lg overflow-hidden">
                       <img
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                        src="/images/product-3.jpg"
                         alt=""
                         className="w-full h-full object-center object-cover"
                       />
                     </div>
                     <div className="w-44 h-64 rounded-lg overflow-hidden">
                       <img
-                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                        src="/images/product-4.jpg"
+                        alt=""
+                        className="w-full h-full object-center object-cover"
+                      />
+                    </div>
+                    <div className="w-44 h-64 rounded-lg overflow-hidden">
+                      <img
+                        src="/images/product-5.jpg"
+                        alt=""
+                        className="w-full h-full object-center object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div className="w-44 h-64 rounded-lg overflow-hidden">
+                      <img
+                        src="/images/product-6.jpg"
+                        alt=""
+                        className="w-full h-full object-center object-cover"
+                      />
+                    </div>
+                    <div className="w-44 h-64 rounded-lg overflow-hidden">
+                      <img
+                        src="/images/product-7.jpg"
                         alt=""
                         className="w-full h-full object-center object-cover"
                       />
