@@ -1,13 +1,15 @@
-import Category from 'components/Category';
 import CTA from 'components/CTA';
 import Favorite from 'components/Favorite';
 import Featured from 'components/Featured';
+import Hero from 'components/Hero';
+import Incentive from 'components/Incentive';
 import Layout from 'components/Layout';
 
 export default function Home() {
   return (
     <Layout>
-      <Category />
+      <Hero />
+      <Incentive />
       <Featured />
       <Favorite />
       <CTA />

@@ -1,5 +1,7 @@
-import 'tailwindcss/tailwind.css';
 import Head from 'next/head';
+import { StoreProvider } from '../utils/Store';
+
+import 'tailwindcss/tailwind.css';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -12,7 +14,9 @@ function MyApp({ Component, pageProps }) {
           href="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
         />
       </Head>
-      <Component {...pageProps} />
+      <StoreProvider>
+        <Component {...pageProps} />
+      </StoreProvider>
     </>
   );
 }
