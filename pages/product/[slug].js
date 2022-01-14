@@ -1,12 +1,6 @@
-import Layout from 'components/Layout';
-import { useState } from 'react';
-import {
-  CheckIcon,
-  QuestionMarkCircleIcon,
-  StarIcon,
-} from '@heroicons/react/solid';
-import { RadioGroup } from '@headlessui/react';
 import { ShieldCheckIcon } from '@heroicons/react/outline';
+import { CheckIcon, StarIcon } from '@heroicons/react/solid';
+import Layout from 'components/Layout';
 
 const product = {
   name: 'Everyday Ruck Snack',
